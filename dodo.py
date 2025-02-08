@@ -220,6 +220,12 @@ def task_chart_repo_rates():
 
 
 notebook_tasks = {
+        "sma_equity_strategy.ipynb": {
+        "file_dep": [],
+        "targets": [
+            Path("./docs") / "sma_equity_strategy.html",
+        ],
+    },
     "01_example_notebook_interactive.ipynb": {
         "file_dep": [],
         "targets": [
